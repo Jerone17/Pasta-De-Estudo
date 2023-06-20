@@ -1,0 +1,290 @@
+
+body
+{
+    background-color: #0e0e0e;
+    background-image: url(../IMAGENS/bg-gc-classic.jpg), url(../IMAGENS/bg-gc-classic-2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center 185%;
+    background-attachment: scroll, scroll;
+    overflow-y: auto;
+
+    /*
+    
+    background-repeat: no-repeat,repeat ;
+    
+    background-size:initial;
+    overflow: auto;
+    */
+
+
+}
+
+/* INICIO DO CABEÇALHO */
+
+.Cabeçalho
+{
+    position: relative;
+    right: 10px;
+    bottom: 8.7px;
+    width: 1346.9px;
+    height: 110px;
+  /*  width: 1347px; */
+    border: 2px solid #f15a29;
+    background-color:#191818;
+}
+
+
+.box-logo
+{
+    border: 1px solid transparent;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 14px;
+
+}
+
+
+.box0
+{
+    border: 1px solid transparent;
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+    width: 950px;
+    display: flex;
+    justify-content: end;
+}
+
+.box1
+{
+    padding-right: 50px;
+}
+.box2
+{
+    padding-right: 50px;
+}
+.box3
+{
+    padding-right: 50px;
+}
+.box4
+{
+    padding-right: 30px;
+}
+
+.box5
+{
+    border: 1px solid transparent;
+    height: 20px;
+    position: relative;
+    top: 28px;
+}
+
+.box5 > a
+{
+    color: #d5d2cc;
+    text-decoration: none;
+    font: 14px "Open Sans", Arial, sans-serif;
+}
+
+/* FIM DO CABEÇALHO */
+.PRINCIPAL
+{
+    width: 100%;
+    height: 1000px;
+    position: static;
+}
+
+.ContainerMainGC
+{
+    width: 100px;
+    height: 100px;
+    border: 5px solid transparent;
+    position: relative; 
+    top: 250px;
+    left: 405px;
+}
+
+
+
+
+
+.Parágrafo
+{
+    height: 200px;
+    width: 800px;
+    
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: 0.5px;
+    line-height: 1.4em;
+    position: relative;
+    top: 400px;
+    left: 240px;
+    font-size: 20px;
+}
+
+
+.SteamLogo
+{
+    width: 100px;
+    position: relative;
+    top: 375px;
+    left: 550px;
+}
+
+.REQUISITOS 
+{
+    position: relative;
+    top: 385px;
+    left: 550px;
+    width: 180px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid white;
+    background: #0c71c3;
+    font: 10px "Open Sans", Arial, sans-serif;
+}
+
+.REQUISITOS > a 
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.TABELA
+{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    top: 395px;
+    left: 564px;
+    border: 2px solid white;
+    border-radius: 40px;
+    background: #0c71c3;
+}
+
+.TABELA > a
+{
+    text-decoration: none;
+    color: white;
+    font: 10px "Open Sans", Arial, sans-serif;
+    text-align: center;
+}
+
+
+.Foto2
+{
+    background-image: url(../IMAGENS/bg-gc-classic-2.jpg);
+    background-size: 1600px 1600px;
+    background-repeat: repeat;
+}
+
+
+.ContainersImagens
+{
+    position: relative;
+    display: flex;
+    top: 500px;
+}
+
+.ContainersImagens > img
+{
+    box-shadow: 7px 7px 0px #692d11;
+    box-shadow: #252420;
+}
+
+.Parágrafo1
+{
+    width: 5px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    top: 300px;
+    right: 250px;
+}
+
+.ContainerImagens 
+{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 500px;
+}
+
+.Imagem1 
+{
+    box-shadow: 5px 5px 1px;
+}
+
+.ImagensParagrafos1
+{
+    color: white;
+    width: 350px;
+    text-align: center;
+}
+
+
+.Imagem2
+{
+    box-shadow: 5px 5px 1px;
+}
+
+.ImagensParagrafos2
+{
+    color: white;
+    width: 350px;
+}
+
+.ImagensParagrafos2 > h2
+{
+    text-align: center;
+}
+
+.Imagem3
+{
+    box-shadow: 5px 5px 1px;
+}
+
+.ImagensParagrafos3
+{
+    color: white;
+    width: 350px;
+}
+
+.UltimoContainer
+{
+    position: relative;
+    top: 600px;
+    left: 535px;
+    width: 100px;
+}
+
+
+.Facebook
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(253, 253, 253);
+    position: relative;
+    top: 670px;
+    left: 450px;
+    border-radius: 50px;
+    background-image: url(../IMAGENS/facebook-logo.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Instagram
+{
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    top: 670px;
+    
+}

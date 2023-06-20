@@ -1,0 +1,88 @@
+.container {
+    background-image: url(/pinpng.com-dark-souls-logo-png-628959.png);
+    background-position: center;
+    display: flex;
+}
+
+.card {
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: rgba(207, 207, 207, 0.7);
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.card:hover {
+    flex: 2;
+    background-color: rgba(207, 207, 207, 0.8);
+}
+
+.card1 {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    background-image: url(../images/alibaba.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 220px;
+    
+}
+
+.casa1 {
+    width: 350px;
+    height: 150px;
+    border: 3px solid rgba(31, 29, 29, 0.9);
+    background-color: rgba(30, 20, 30, 0.8);
+    text-align: center;
+    font-size: 60px;
+    margin-left: 53%;
+    border-radius:  5px 30px 30px 50px;
+    color: rgb(3, 3, 29);   
+    font-style: oblique;
+}        
+
+.casa2 {
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    font-style: italic;
+    background-color: rgba(8, 3, 36, 0.8);
+    margin-left: 35%;
+    margin-top: -30px;
+    font-size: 25px;
+    text-align: center;
+    border-radius:  5px 30px 30px 50px;
+    
+
+}
+
+.casamini3 {
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    font-style: italic;
+    background-color: rgba(8, 3, 36, 0.8);
+    margin-left: 69%;
+    margin-top: -305px;
+    font-size: 25px;
+    text-align: center;
+    border-radius:  5px 30px 30px 50px;
+
+
+}
+
+.casa3 {
+    width: 135px;
+    height: 70px;
+    margin-left: 73%;
+  
+  
+}
+
+.casinha1 {
+    margin-top: -10px;
+}
